@@ -19,18 +19,12 @@ from urllib.parse import quote_plus
 
 
 dynamodb = boto3.resource('dynamodb',
-                          aws_access_key_id='AKIAWSSTVGNNIYIO7BM4',
-                          aws_secret_access_key='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',
                           region_name='eu-central-1')
 
 dynamodb2 = boto3.resource('dynamodb',
-                          aws_access_key_id='AKIAWSSTVGNNIYIO7BM4',
-                          aws_secret_access_key='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',
                           region_name='eu-central-1'
                           )
 s3 = boto3.client('s3',
-                    aws_access_key_id='AKIAWSSTVGNNIYIO7BM4',
-                    aws_secret_access_key= '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',
                     region_name='eu-central-1'
                      )
 BUCKET_NAME1='asiadoctorbucket'
